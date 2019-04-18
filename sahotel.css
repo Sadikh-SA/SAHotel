@@ -61,7 +61,7 @@ nav li
     width: 18%;
     line-height: 15px;
     text-align:center;
-    background-color:#084AC5;
+    background-color: #084AC5;
     border-radius: 16px 6px 16px 6px;
     font-style: italic;
     padding: 15px;
@@ -71,7 +71,7 @@ nav li
 nav .sous-menu li {
     width: 100%;
     margin-top:18px; 
-    background-color:#084AC5;
+    background-color: #084AC5;
     margin-left: -20px;
 }
 nav::after
