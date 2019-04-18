@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../css/sahotel.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="page1">
+        <header>
+            <img src="../images/cap2.png" alt="logo">
+        </header>
+        <nav>
+            <ul>
+                <li> <a href="Samodif.html">Acceuil</a></li>
+                <li> <a href="chambres.html">Chambres</a>
+                    <ul class="sous-menu">
+                        <li> <a href="#">Luxes</a></li>
+                        <li> <a href="#">Connectées</a></li>
+                        <li> <a href="#">Gammers</a></li>
+                    </ul> 
+                </li>
+                <li> <a href="Description.html">Déscriptions</a>
+                    <ul class="sous-menu">
+                        <li> <a href="#">Luxes</a></li>
+                        <li> <a href="#">Connectées</a></li>
+                        <li> <a href="#">Gammers</a></li>
+                    </ul>
+                </li>
+                <li> <a href="contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="block parallax" id="reservation" >
+        <div class="layer">
+            <div class="fixed-img sec-bg1"></div>
+            <div id="reservation" class="container">
+                <div class="heading">
+                    <h2><i>RÉSERVEZ UNE CHAMBRE</i></h2>
+                </div>
+                <div class="top-margin">
+                    <div class="row">
+                        <form class="booking-form" action="" method="POST" target="_blank">
+                            <div class="col-md-2 fieldset">
+                                <label>Arrivée:</label>
+                                <input type="date" name="arrival" class="span2 input-style" id="check-in" placeholder="jj/mm/aaaa" />
+                            </div>
+                            <div class="col-md-2 fieldset">
+                                <label>Départ:</label>
+                                <input type="date" name="depart" size="12" class="input-style" id="check-out" placeholder="jj/mm/aaaa"/>
+                            </div>
+                            <div class="col-md-2 fieldset">
+                                <label>Adultes:</label>
+                                <select name="adults" class="input-style">
+                                    <option value="1" style="color:#000;">1</option>
+                                    <option value="2" style="color:#000;">2</option>
+                                    <option value="3" style="color:#000;">3</option>
+                                    <option value="4" style="color:#000;">4</option>
+                                    <option value="5" style="color:#000;">5</option>
+                                    <option value="6" style="color:#000;">6</option>
+                                    <option value="7" style="color:#000;">7</option>
+                                    <option value="8" style="color:#000;">8</option>
+                                    <option value="9" style="color:#000;">9</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2 fieldset">
+                                <label>Enfants:</label>
+                                <select name="children" id="" class="input-style">
+                                    <option value="0" style="color:#000;">0</option>
+                                    <option value="1" style="color:#000;">1</option>
+                                    <option value="2" style="color:#000;">2</option>
+                                    <option value="3" style="color:#000;">3</option>
+                                    <option value="4" style="color:#000;">4</option>
+                                    <option value="5" style="color:#000;">5</option>
+                                    <option value="6" style="color:#000;">6</option>
+                                    <option value="7" style="color:#000;">7</option>
+                                    <option value="8" style="color:#000;">8</option>
+                                    <option value="9" style="color:#000;">9</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2 fieldset">
+                                <label>Type de Chambres</label>
+                                <select name="chambres" id="" class="input-style">
+                                    <option value="0" style="color:#000;">Chambres Connectées</option>
+                                    <option value="1" style="color:#000;">Chambres de Luxes</option>
+                                    <option value="2" style="color:#000;">Chambres Gaming</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2 fieldset">
+                                <label for=""> </label>
+                                <button type="submit" name="submit" class="submit"><i class="fa fa-legal"></i>RÉSERVER</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="flex-rw">
+  
+            <ul class="footer-list-top">
+                <li>
+                    <h4 class="footer-list-header">A Propos</h4>
+                </li>
+                <li><a href="#" class="generic-anchor footer-list-anchor" itemprop="significantLink">Nous Connaitre</a></li>
+                <li><a href="#" class="generic-anchor footer-list-anchor" itemprop="significantLink">Nos Positions</a></li>
+                <li><a href="#" class="generic-anchor footer-list-anchor" itemprop="significantLink">Services</a></li>              
+                <li><a href="#" itemprop="significantLink" class="generic-anchor footer-list-anchor">Réservation</a></li>
+                <li><a href="#" class="generic-anchor footer-list-anchor" itemprop="significantLink">Évenements</a></li>
+            </ul>
+            <ul class="footer-list-top">
+    
+            </ul>
+            <ul class="footer-list-top">
+                <li id='help'>
+                    <h4 class="footer-list-header">Please Help Me</h4></li>
+                <li><a href="contact.html" class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
+                <li><a href='#' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
+                <li id='find-a-store'><a href="#" class="generic-anchor footer-list-anchor" itemprop="significantLink">Ouverture</a></li>
+                <li id='user-registration'><a href="#" class="generic-anchor footer-list-anchor" itemprop="significantLink">Nouvel Utilisateur</a></li>
+                <li id='order-tracking'><a href="#" itemprop="significantLink" class="generic-anchor footer-list-anchor">Commande</a></li>
+            </ul>
+            <section class="footer-social-section flex-rw">
+                <span class="footer-social-overlap footer-social-connect">
+                    SUIVEZ <span class="footer-social-small">nous</span> SUR
+                </span>
+                <span class="footer-social-overlap footer-social-icons-wrapper" id="lien">
+                    <a href="#" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
+                    <a href="#" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
+                    <a href="#" class="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
+                </span>
+            </section>
+            <section class="footer-bottom-section flex-rw">
+                <div class="footer-bottom-wrapper">   
+                    <i class="fa fa-copyright" role="copyright" >
+                    </i> 2019 Sonatel Academy <address class="footer-address" role="company address">Mermoz, Dakar, Sénégal</address><span class="footer-bottom-rights"> - Toutes reproductions interdites - </span>                    </div>
+                <div class="footer-bottom-wrapper">
+                    <a href="#" class="generic-anchor" rel="nofollow">Termes</a> | <a href="/privacy-policy.html" class="generic-anchor" rel="nofollow">Contrat</a>
+                </div>
+            </section>
+        </footer>
+</body>
+</html>
