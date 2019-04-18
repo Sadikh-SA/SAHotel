@@ -1,0 +1,96 @@
+#page1
+{
+    padding: 5px;
+    margin: 0px;
+    /*background-image: url("../images/fond2.jpg");*/
+    width: 100%;
+    background-size: 100%;
+}
+#contenu {
+    height: 650px;
+    width: 100%;
+}
+#contenu img{
+    width: 100%;
+}
+header
+{
+    margin: 4px auto;
+}
+header img
+{
+    border: 2px solid #084AC5;
+}
+img
+{
+    border-radius: 16px 6px 16px 6px;
+}
+nav
+{
+    margin: -55px;
+    padding: -20px;
+    margin-bottom: -2px;
+    margin-left: 15%;
+    text-transform: uppercase;
+   
+}
+nav ul li a
+{
+    color:#FFF;
+    font-style: italic;
+    text-decoration: none;
+}
+.sous-menu
+{
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+nav li:hover .sous-menu
+{
+    display: block;
+}
+nav .sous-menu li
+{
+    display: block;
+}
+nav li
+{
+    display: inline-block;
+    height: 45px;
+    width: 18%;
+    line-height: 15px;
+    text-align:center;
+    background-color:#084AC5;
+    border-radius: 16px 6px 16px 6px;
+    font-style: italic;
+    padding: 15px;
+    margin: 5px;   
+}
+
+nav .sous-menu li {
+    width: 100%;
+    margin-top:18px; 
+    background-color:#084AC5;
+    margin-left: -20px;
+}
+nav::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+footer
+{
+  margin-top:40px; 
+}
+#reservation
+{
+  margin-top:40px; 
+}
+
+#footer {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 20px;
+}
