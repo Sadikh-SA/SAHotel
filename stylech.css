@@ -1,0 +1,149 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+    background-image: url("ht.jpeg");
+    background-repeat: no-repeat;
+}
+.page
+{
+    padding: 5px;
+    margin: 0px;
+    background-size: 100%;
+}
+header
+{
+    margin: 4px auto;
+}
+img
+{
+    border-radius: 16px 6px 16px 6px;
+}
+nav
+{
+    margin: -55px;
+    padding: -20px;
+    margin-bottom: -2px;
+    margin-left: 15%;
+   
+}
+nav ul li a
+{
+    color:white;
+    font-style: italic;
+    text-decoration: none;
+}
+.sous-menu
+{
+    display: none;
+    position: absolute;
+}
+nav li:hover .sous-menu
+{
+    display: block;
+}
+nav .sous-menu li
+{
+    display: block;
+}
+nav li
+{
+    display: inline-block;
+    height: 20px;
+    width: 18%;
+    line-height: 15px;
+    text-align:center;
+    background-color:#4a53c8;
+    border-radius: 16px 6px 16px 6px;
+    font-style: italic;
+    padding: 15px;
+    margin: 5px;   
+}
+nav::after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+.chambre{
+    width: 100%;
+    height: auto;
+    color: rgb(13, 15, 54);
+    text-shadow: 3px 14px 13px #5c5e67;
+
+}
+.btnpop{
+    cursor: pointer;
+ }
+.bckpop {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.popup{
+    margin: 20% auto;
+    width: 100%;
+    padding: 10px;
+}
+.clospop{
+    float: right;
+    cursor: pointer;
+}
+.chambre p a img{
+    width: 40%;
+    border: 5px solid white;
+}
+.description{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.ch{
+    float: right ;
+    width: 30%;
+    height: auto; 
+}
+.coaur {
+    margin: auto;
+    width: 80%;
+    height: auto;
+   /* margin-top: 0px;
+    margin-bottom: 0px;*/
+  
+
+}
+.prtidroit {
+    margin: auto;
+    width: 50%;
+    height: 300px;
+    float: left;
+    margin-bottom: 0px;
+}
+.fit-picture {
+    width: 500px;
+    height: 250px;
+
+}
+.prtigouchH {
+    margin: auto;
+    margin-top: 0px;
+    width: 49%;
+    height: 150px;
+    float: right;
+}
+.partigouchB {
+    margin: auto;
+    margin-top: 0px;
+    width: 49%;
+    height: 150px;
+    float: right;
+}
+
+footer
+{
+  margin-top: 485px;
+}
