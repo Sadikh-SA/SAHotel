@@ -59,14 +59,14 @@ footer {
 .footer-social-overlap {
   position: relative;
   z-index: 2;
-  background: rgb(55,55,55);
+  background: #084AC5;
   padding: 0 20px
 }
 .footer-social-connect {
   display: flex;
   align-items: center;
   font: 2.5em "Oswald", sans-serif;
-  color: #fff
+  color: #FFF;
 }
 .footer-social-small {
   font-size: 0.6em;
