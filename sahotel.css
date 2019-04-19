@@ -94,3 +94,51 @@ footer
     width: 90%;
     margin-top: 20px;
 }
+.description1{
+    float: left;
+    width: 50%;
+    padding:8px;
+    font-style: italic;
+
+}
+.chluxe{
+    float: left ;
+    width: 50%;
+}
+.description2
+{
+    float: right;
+    width: 50%;
+    font-style: italic;
+    padding: 8px;
+}
+.chgammer
+{
+    float: right;
+    width: 50%;
+    padding: 15px;
+}
+.description3
+{
+    float: left;
+    width: 50%;
+    font-style: italic;
+    /*font-family: Nadia Sofia;*/
+    padding: 8px;
+}
+.chconnect
+{
+    float: right;
+    width: 50%;
+    padding: 8px;
+}
+strong
+{
+    color:#084AC5;
+}
+#s
+{
+    font-size: 35px;
+    font-family: trendy;
+}
+
